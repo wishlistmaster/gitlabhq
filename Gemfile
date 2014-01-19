@@ -120,7 +120,7 @@ gem "redis-rails"
 gem 'tinder', '~> 1.9.2'
 
 # HipChat integration
-gem "hipchat", "~> 0.9.0"
+gem "hipchat", "~> 0.14.0"
 
 # Flowdock integration
 gem "gitlab-flowdock-git-hook", "~> 0.4.2"
@@ -144,17 +144,16 @@ gem "therubyracer"
 gem 'turbolinks'
 gem 'jquery-turbolinks'
 
-gem 'chosen-rails',     "1.0.1"
 gem 'select2-rails'
 gem 'jquery-atwho-rails', "~> 0.3.3"
 gem "jquery-rails",     "2.1.3"
 gem "jquery-ui-rails",  "2.0.2"
 gem "modernizr",        "2.6.2"
 gem "raphael-rails", "~> 2.1.2"
-gem 'bootstrap-sass', '~> 2.3'
+gem 'bootstrap-sass', '~> 3.0'
 gem "font-awesome-rails", '~> 3.2'
 gem "gemoji", "~> 1.3.0"
-gem "gon", git: "https://github.com/gitlabhq/gon.git", ref: '58ca8e17273051cb370182cabd3602d1da6783ab'
+gem "gon", '~> 5.0.0'
 
 group :development do
   gem "annotate", "~> 2.6.0.beta2"
